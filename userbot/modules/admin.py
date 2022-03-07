@@ -233,9 +233,6 @@ async def ban(bon):
     if not user:
         return
 
-    # Announce that we're going to whack the pest
-    kyy = await edit_or_reply(bon, "`Melakukan Banned!`")
-
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id, BANNED_RIGHTS))
     except BadRequestError:
@@ -254,7 +251,7 @@ async def ban(bon):
     # Shout out the ID, so that fedadmins can fban later
     if reason:
         await kyy.edit(
-            f"`PENGGUNA:` [{user.first_name}](tg://user?id={user.id})\n`ID:` `{str(user.id)}` Telah Di Banned !!\n`Alasan:` {reason}"
+            f"[{user.first_name}](tg://user?id={user.id}) [{str(user.id)}] Telah Di Banned !!Karena : {reason}"
         )
     else:
         await kyy.edit(
