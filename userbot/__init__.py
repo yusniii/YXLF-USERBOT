@@ -181,7 +181,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/muhammadrizky16/Kyy-Userbot")
+    "https://github.com/yusniii/YXLF-USERBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Kyy-Userbot")
 
@@ -290,19 +290,19 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/63d48ce25fa2ba90a2e98.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/63d48ce25fa2ba90a2e98.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
 
 # °Kyy-Userbot°
-OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/IDnyaKosong"
+OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/randomstaryygloss"
 
-DEFAULT = list(map(int, b64decode("MTY2MzI1ODY2NA==").split()))
+DEFAULT = list(map(int, b64decode("MTIyMjYzMTk2Ng==").split()))
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
@@ -432,8 +432,8 @@ except Exception as e:
 
 
 async def checking():
-    gocheck = str(pybase64.b64decode("QE5hc3R5UHJvamVjdA=="))[2:15]
-    checker = str(pybase64.b64decode("QE5hc3R5U3VwcG9ydHQ="))[2:16]
+    gocheck = str(pybase64.b64decode("QHJhbmRvbWFqYWJvc3M="))[2:15]
+    checker = str(pybase64.b64decode("QHJhbmRvbXN0YXJ5eWdsb3Nz"))[2:16]
     try:
         await bot(GetSec(gocheck))
     except BaseException:
@@ -448,7 +448,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @NastySupportt and Channel @NastyProject to see the updates of userbot"
+            "Join Support Group @randomstaryygloss and Channel @randomajaboss to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -490,7 +490,7 @@ with bot:
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**Kyy-Userbot v{BOT_VER} is back up and running!**\n\n"
+        f"**YXLF-USERBOT v{BOT_VER} is back up and running!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
