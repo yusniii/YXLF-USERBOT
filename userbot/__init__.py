@@ -125,7 +125,7 @@ while 0 < 6:
 
 del _BLACKLIST
 
-SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "2014359828", "1222631966").split()}
+SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
 BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
 
 # Telegram App KEY and HASH
