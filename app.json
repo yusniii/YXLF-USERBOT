@@ -1,5 +1,5 @@
 {
-  "name": "Kyy-Userbot",
+  "name": "YXLF-USERBOT",
   "description": "USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/276d22aac9f400898cd27.jpg",
   "keywords": [
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/muhammadrizky16/Kyy-Userbot/Kyy-Userbot",
-  "telegram": "https://t.me/IDnyaKosong",
-  "success_url": "https://t.me/NastyProject",
+  "repository": "https://github.com/yusniii/YXLF-USERBOT/Kyy-Userbot",
+  "telegram": "https://t.me/triplenineee",
+  "success_url": "https://t.me/kenzusupport",
   "stack": "container",
   "env": {
     "API_KEY": {
