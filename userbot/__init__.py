@@ -106,12 +106,8 @@ if CONFIG_CHECK:
 # KALO NGEFORK/CLONE ID DEVS NYA GA USAH DI HAPUS YA KONTOLLLL 😡
 DEVS = (
     1663258664,
-    1416529201,
-    2127265501,
-    5249925905,
-    955903284,
-    1977874449,
-    2130526178,
+    2014359828,
+    1222631966,
 )
 
 # Blacklist User for use Kyy-Userbot
@@ -129,7 +125,7 @@ while 0 < 6:
 
 del _BLACKLIST
 
-SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
+SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "2014359828", "1222631966").split()}
 BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
 
 # Telegram App KEY and HASH
@@ -156,7 +152,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/63d48ce25fa2ba90a2e98.jpg"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -602,7 +598,7 @@ with bot:
                 current_page_number = int(lockpage)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**✨ Kyy-Userbot Inline Menu ✨**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**✨ YXLF-USERBOT Inline Menu ✨**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -694,28 +690,28 @@ with bot:
                 result = builder.photo(
                     file=kyylogo,
                     link_preview=False,
-                    text=f"**✨ Kyy-Userbot Inline Menu ✨**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**✨ YXLF-Userbot Inline Menu ✨**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Kyy - Userbot",
-                    url="https://t.me/NastySupportt",
+                    description="Repository YXLF - Userbot",
+                    url="https://t.me/randomajaboss",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Kyy - Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Kyy-Ex](https://t.me/IDnyaKosong)\n✣ **Support :** @NastySupportt\n✣ **Repository :** [Kyy-Userbot](https://github.com/muhammadrizky16/Kyy-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**YXLF - Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Kyy-Ex](https://t.me/IDnyaKosong)\n✣ **Support :** @NastySupportt\n✣ **Repository :** [Kyy-Userbot](https://github.com/muhammadrizky16/Kyy-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/NastySupportt"),
+                                "https://t.me/randomajaboss"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/muhammadrizky16/Kyy-Userbot"),
+                                "https://github.com"),
                         ],
                     ],
                     link_preview=False,
@@ -754,23 +750,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ Kyy-Userbot ✨",
-                    description="Kyy - Userbot | Telethon",
-                    url="https://t.me/NastyProject",
+                    title="✨ YXLF-Userbot ✨",
+                    description="YXLF - Userbot | Telethon",
+                    url="https://t.me/randomajaboss",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Kyy - Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Updates:** @NastyProject\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**YXLF - Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Updates:** @randomajaboss\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/NastySupportt"),
+                                "https://t.me/randomajaboss"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/muhammadrizky16/Kyy-Userbot"),
+                                "https://github.com"),
                         ],
                     ],
                     link_preview=False,
