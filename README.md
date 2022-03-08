@@ -1,7 +1,7 @@
 <h1 align="center">YXLF-USERBOT</h1>
 
 <p align="center">
-  <img src="https://telegra.ph/file/47c308a37f79709938935.jpg">
+  <img src="https://telegra.ph/file/6d6d864fc6c475757ccb6.jpg">
 </p>
    ᴍᴇᴛᴏᴅᴇ ᴅᴇᴘʟᴏʏ
 </h2>
