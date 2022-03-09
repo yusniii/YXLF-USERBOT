@@ -34,7 +34,7 @@ try:
     ).json()
     if user.id in kyyblacklist:
         LOGS.warning(
-            "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTnya GUA MATIIN NAJIS BANGET DIPAKE ORANG KEK LU.\nCredits: @IDnyaKosong"
+            "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTnya GUA MATIIN NAJIS BANGET DIPAKE ORANG KEK LU.\nCredits: @yxxxznal1_bot"
         )
         sys.exit(1)
 except Exception as e:
@@ -53,7 +53,7 @@ LOGS.info(
 async def check_alive():
     try:
         if BOTLOG_CHATID != 0:
-            await bot.send_message(BOTLOG_CHATID, "**YXLF USERBOT Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 3.1.0\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** Yxzn ")
+            await bot.send_message(BOTLOG_CHATID, "**𝐘𝐗𝐋𝐅 - 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐁𝐄𝐑𝐇𝐀𝐒𝐈𝐋 𝐃𝐈 𝐀𝐊𝐓𝐈𝐅𝐊𝐀𝐍✨**!!\n━━━━━━━━━━━━━━━\n➠ **ʙᴏᴛ ᴠᴇʀ** - 3.1.0\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** yxzn ")
     except Exception as e:
         LOGS.info(str(e))
     try:
