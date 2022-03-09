@@ -45,7 +45,7 @@ for module_name in ALL_MODULES:
     imported_module = import_module("userbot.modules." + module_name)
 
 LOGS.info(
-    f"Jika {ALIVE_NAME} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/NastySupportt")
+    f"Jika {ALIVE_NAME} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/Kenzusupport")
 LOGS.info(
     f"YXLF-USERBOT ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
 
@@ -53,7 +53,7 @@ LOGS.info(
 async def check_alive():
     try:
         if BOTLOG_CHATID != 0:
-            await bot.send_message(BOTLOG_CHATID, "**𝐘𝐗𝐋𝐅 - 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐁𝐄𝐑𝐇𝐀𝐒𝐈𝐋 𝐃𝐈 𝐀𝐊𝐓𝐈𝐅𝐊𝐀𝐍✨**!!\n━━━━━━━━━━━━━━━\n➠ **ʙᴏᴛ ᴠᴇʀ** - 3.1.0\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** yxzn ")
+            await bot.send_message(BOTLOG_CHATID, "**𝐘𝐗𝐋𝐅 - 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐁𝐄𝐑𝐇𝐀𝐒𝐈𝐋 𝐃𝐈 𝐀𝐊𝐓𝐈𝐅𝐊𝐀𝐍✨**!!\n━━━━━━━━━━━━━━━\n➠ **ʙᴏᴛ ᴠᴇʀ** - 3.1.0\n➠ **ᴋᴇᴛɪᴋ** `.ping` **ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴄʜᴇᴄᴋ ʙᴏᴛ**\n━━━━━━━━━━━━━━━\n➠ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ:** yxzn ")
     except Exception as e:
         LOGS.info(str(e))
     try:
