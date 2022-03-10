@@ -26,7 +26,7 @@ async def _(event):
 
     animation_chars = [
 
-        "Heroku Connecting To Latest Github Build (muhammadrizky16/Kyy-Userbot)",
+        "Heroku Connecting To Latest Github Build (yusniii/YXLF-USERBOT)",
         f"Build started by user `{DEFAULTUSER}`",
         f"Deploy `535a74f0` by user `{DEFAULTUSER}`",
         "`Restarting Heroku Server...`",
@@ -45,8 +45,8 @@ async def _(event):
         "telethon.network.mtprotosender -\nINFO - Received response without parent request",
         "INFO - Kyy-Userbot: Logged in as 557667062",
         "INFO - Kyy-Userbot: Successfully...",
-        "919852+00:00 app[worker.1]: 919 - Kyy-Userbot -",
-        "INFO -  ✨Kyy-Userbot✨  ⚙️ V5.0 [TELAH DIAKTIFKAN!]",
+        "919852+00:00 app[worker.1]: 919 - YXLF-USERBOT -",
+        "INFO -  ✨YXLF-USERBOT✨  ⚙️ V5.0 [TELAH DIAKTIFKAN!]",
         "**Build Succeeded**"
 
     ]
