@@ -36,7 +36,7 @@ async def get_full_user(event):
             user_obj = await event.client.get_entity(user)
         except Exception as err:
             return await event.edit(
-                "`Terjadi Kesalahan... Mohon Lapor Ke` @IDnyaKosong", str(err)
+                "`Terjadi Kesalahan... Mohon Lapor Ke` @yxxxznal1_bot", str(err)
             )
     return user_obj, extra
 
@@ -147,7 +147,7 @@ async def gben(userbot):
     except BaseException:
         pass
     return await gbun.edit(
-        f"**Perintah:** `{ALIVE_NAME}`\n**Pengguna:** [{user.first_name}](tg://user?id={user.id})\n**Aksi:** `Global Banned`"
+        f"**ঞᴘᴇʀɪɴᴛᴀʜঞ:** `{ALIVE_NAME}`\n**ঞᴘᴇɴɢɢᴜɴᴀঞ:** [{user.first_name}](tg://user?id={user.id})\n**ঞᴀᴋsɪঞ:** `Global Banned`"
     )
 
 
