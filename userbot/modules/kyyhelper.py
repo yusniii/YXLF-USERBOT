@@ -13,21 +13,21 @@ async def usit(e):
     await e.edit(
         f"**Halo {DEFAULTUSER} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
         "\n[Telegram](t.me/IDnyaKosong)"
-        "\n[Repo](https://github.com/S/Kyy-Userbot)"
-        "\n[Instagram](instagram.com/rizkyhamdanii16_)")
+        "\n[Repo](https://github.com/yusniii/YXLF-USERBOT)"
+        "\n[Instagram](instagram.com/yusnii___)")
 
 
 @register(outgoing=True, pattern="^.vars$")
 async def var(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
-        "\n[DAFTAR VARS](https://raw.githubusercontent.com/muhammadrizky16/Kyy-Userbot/Kyy-Userbot/varshelper.txt)")
+        "\n[DAFTAR VARS](https://raw.githubusercontent.com/yusniii/YXLF-USERBOT/YXLF-USERBOT/varshelper.txt)")
 
 
 CMD_HELP.update({
     "helper":
     "`.lhelp`\
-\nUsage: Bantuan Untuk Kyy-Userbot.\
+\nUsage: Bantuan Untuk YXLF-USERBOT.\
 \n`.vars`\
 \nUsage: Melihat Daftar Vars."
 })
