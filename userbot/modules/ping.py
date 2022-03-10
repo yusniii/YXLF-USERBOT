@@ -17,10 +17,10 @@ from userbot.events import register
 from userbot.utils import edit_or_reply, kyy_cmd
 
 absen = [
-    "**Hadir ganteng** 🥵",
-    "**Hadir bro** 😎",
+    "**Hadir cantik** 🥵",
+    "**Hadir maniess** 😎",
     "**Hadir kak** 😉",
-    "**Hadir bang** 😁",
+    "**Hadir ayang** 😁",
     "**Hadir kak maap telat** 🥺",
 ]
 
@@ -85,7 +85,7 @@ async def redis(pong):
     await xx.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Kyy-Userbot` \n" % (duration)
+        f"**➾Branch : ** 'YXLF-USERBOT` \n" % (duration)
     )
 
 
@@ -123,7 +123,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xping.edit(
-        f"**✨ҡʏʏ-υѕєявσт✨**\n"
+        f"**✨ʏxʟꜰ-ᴜsᴇʀʙᴏᴛ✨**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -147,7 +147,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await sinyal.edit(
-        f"**✨ ҡʏʏ-υѕєявσт ✨**\n\n"
+        f"**✨ ʏxʟꜰ-ᴜsᴇʀʙᴏᴛ ✨**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -167,10 +167,10 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await ping.edit(
-        f"**PONG!!!🏓**\n"
-        f"• **Pɪɴɢᴇʀ** ⪼ "
+        f"**𝗣𝗢𝗡𝗚 ... !! 🏓**\n"
+        f"꥟ **𝐏𝐈𝐍𝐆𝐄𝐑** ▸  "
         f"`%sms` \n"
-        f"• **Uᴘᴛɪᴍᴇ** ⪼ "
+        f"꥟ **𝐔𝐏𝐓𝐈𝐌𝐄** ▸  "
         f"`{uptime}` \n" % (duration)
     )
 
@@ -200,7 +200,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ✨ҡʏʏ-υѕєявσт✨"
+        "✧ **BOT:** ✨ʏxʟꜰ-ᴜsᴇʀʙᴏᴛ✨"
     )
 
 
@@ -227,7 +227,7 @@ async def pingme(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**✨KyyName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
+    await pong.edit(f"**✨YxznName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
 @kyy_cmd(pattern="pink$")
