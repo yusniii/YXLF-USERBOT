@@ -223,13 +223,13 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@kyy_cmd(pattern="(?:kyyalive)\\s?(.)?")
+@kyy_cmd(pattern="(?:yxzn)\\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f" *✨ʏxʟꜰ-ᴜsᴇʀʙᴏᴛ✨** \n\n"
-        f"\n__**{YXZN_TEKS_KUSTOM}**__\n\n\n"
+        f"\n__**{KYY_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"◙ `Name       :` {DEFAULTUSER} \n"
         f"◙ `Username   :` @{user.username} \n"
@@ -259,7 +259,7 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@kyy_cmd(pattern="(?:kyyon)\\s?(.)?")
+@kyy_cmd(pattern="(?:yxlfon)\\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -311,7 +311,7 @@ async def redis(alive):
         f"┣  **Username :** @{user.username} \n"
         f"┣  **Telethon :** Ver {version.__version__} \n"
         f"┣  **Python   :** Ver {python_version()} \n"
-        f"┣  **Branch   :** {UPSTREAM_REPO_BRANCH} \n"
+        f"┣  **Branch   : YXLF-USERBOT** \n"
         f"┣  **Bot Ver  :** {BOT_VER} \n"
         f"┣  **Modules  :** {len(modules)} Modules \n"
         f"┣  **GitHub   :** [yxzn](https://github.com/yusniii/YXLF-USERBOT) \n"
