@@ -147,7 +147,7 @@ async def gben(userbot):
     except BaseException:
         pass
     return await gbun.edit(
-        f"**ঞᴘᴇʀɪɴᴛᴀʜঞ:** `{ALIVE_NAME}`\n**ঞᴘᴇɴɢɢᴜɴᴀঞ:** [{user.first_name}](tg://user?id={user.id})\n**ঞᴀᴋsɪঞ:** `Global Banned`"
+        f"**ᴘᴇʀɪɴᴛᴀʜ:** `{ALIVE_NAME}`\n**ᴘᴇɴɢɢᴜɴᴀ:** [{user.first_name}](tg://user?id={user.id})\n**ᴀᴋsɪ:** `Global Banned Sampah`"
     )
 
 
