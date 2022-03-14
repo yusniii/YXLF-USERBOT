@@ -59,7 +59,7 @@ async def sleepybot(time):
 @kyy_cmd(pattern="shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await edit_or_reply(event, "`Mematikan Kyy-Userbot....`")
+    await edit_or_reply(event, "`Mematikan Yxlf-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -70,7 +70,7 @@ async def killdabot(event):
 
 @kyy_cmd(pattern="restart$")
 async def killdabot(event):
-    await edit_or_reply(event, "`Restarting Kyy-Userbot...`")
+    await edit_or_reply(event, "`Restarting Yxlf-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -85,7 +85,7 @@ async def killdabot(event):
 async def reedme(e):
     await edit_or_reply(e,
                         "Here's Something for You to Read :\n"
-                        "\n[✨ Kyy-Userbot Repo](https://github.com/muhammadrizky16/Kyy-Userbot/blob/Kyy-Userbot/README.md)"
+                        "\n[✨ Yxlf-Userbot Repo](https://github.com/yusniii/YXLF-USERBOT/blob/Kyy-Userbot/README.md)"
                         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
                         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -108,14 +108,14 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await edit_or_reply(wannasee,
-                        "**Hey**, I am using **✨ҡʏʏ-υѕєявσт✨** \n"
-                        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/muhammadrizky16/Kyy-Userbot)\n"
-                        "➣ **Owner Bot       :** [ҡʏʏ](t.me/IDnyaKosong)\n"
-                        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/NastySupportt)\n"
-                        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/NastyProject)\n"
-                        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
+                        "**Hey**, I am using **✨YXLF-USERBOT✨** \n"
+                        "卍━━━━━━━━━━━━━━━━卍\n"
+                        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/yusniii/YXLF-USERBOT)\n"
+                        "➣ **Owner Bot       :** [YXLF](t.me/yxxxznal1_bot)\n"
+                        "卍━━━━━━━━━━━━━━━━卍\n"
+                        "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/yxxxznal1_bot)\n"
+                        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/yxxxznal1_bot)\n"
+                        "卍━━━━━━━━━━━━━━━━卍\n"
                         )
 
 
